@@ -54,3 +54,5 @@ When using the default values, the final Timeout is 31.8 seconds (as derived in 
 In my case I was working with a local network, quite small and without big delays, and I was aiming for a timeout around 6 seconds and at least 4 tries in case of no reply.
 Choosing the default value for RTR 2000 and an RCR = 4, gave me a nice 6200ms with RCR + 1 = 5 retransmission.
 
+
+_Reference: [W5500 datasheet v.1.1.0](W5500_ds_v110e.pdf)_
